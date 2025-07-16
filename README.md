@@ -2,6 +2,8 @@
 
 This repository contains a Python-based AWS Lambda function integrated with **Amazon RDS Proxy** and **MariaDB**, designed for stateless CRUD operations via **API Gateway**. It demonstrates secure, scalable access to a managed relational database using best practices such as **AWS Secrets Manager** for credential storage.
 
+**Requirements:** Python 3.10+ (uses match statements)
+
 This code supports basic `GET`, `POST`, `PUT`, and `DELETE` operations on a `users` table in MariaDB.
 
 ---
